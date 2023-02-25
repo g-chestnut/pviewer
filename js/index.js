@@ -902,8 +902,12 @@ var app = (function() {
 											}
 										}
 										
+										// var euler = new THREE.Euler(THREE.Math
+										// 	.degToRad(90), THREE.Math
+										// 	.degToRad(0), THREE.Math
+										// 	.degToRad(0), "YXZ");
 										var euler = new THREE.Euler(THREE.Math
-											.degToRad(90), THREE.Math
+											.degToRad(0), THREE.Math
 											.degToRad(0), THREE.Math
 											.degToRad(0), "YXZ");
 						
